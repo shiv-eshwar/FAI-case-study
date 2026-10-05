@@ -1,7 +1,7 @@
 # Multi Agent Warehouse Robot Coordination Using A Star Search
 
 Fundamentals of AI undergraduate case study
-[Student Name]   [Roll Number]
+Shiveshwar Kumar Sah   BL.EN.U4CSE23072
 [Institution]   [Faculty]   [Submission Date]
 
 Abstract
@@ -300,6 +300,6 @@ python -m warehouse_ai render --plan results/default_plan.json --output assets/d
 python -m pytest -q
 ```
 
-Use docs/demo_script.md for a short demonstration, docs/code_walkthrough.md for source-reading order and docs/viva_guide.md for explanations. Replace only the student metadata placeholders before submission. AI assisted the implementation, testing and artifact preparation; adapt any disclosure to course policy without inventing authorship declarations.
+Use docs/demo_script.md for a short demonstration, docs/code_walkthrough.md for source-reading order and docs/viva_guide.md for explanations. Fill in the institution, faculty and submission date before submission. AI assisted the implementation, testing and artifact preparation; adapt any disclosure to course policy without inventing authorship declarations.
 
 The local document fallback uses python-docx and python-pptx because the prescribed bundled artifact runtime was unavailable. DOCX/PPTX are genuine editable Office packages. PDF and visual QA status are recorded honestly in docs/QA.md. The submission ZIP excludes environments, caches and large temporary renders.

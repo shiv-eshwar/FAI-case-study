@@ -1,5 +1,9 @@
 # Warehouse Robot Coordination with A* Search
 
+Student: **Shiveshwar Kumar Sah**
+
+Roll number: **BL.EN.U4CSE23072**
+
 A Fundamentals of AI case study on planning a single delivery wave for multiple
 robots in a warehouse. The project compares independent A* routes with two
 prioritized space-time A* planners, then checks their paths for collisions before
@@ -219,8 +223,8 @@ and the [viva guide](docs/viva_guide.md) explains the design decisions.
 - [Verification record and environment notes](docs/QA.md)
 
 The report has 15 pages and the presentation has 15 slides with speaker notes.
-Both were rendered and visually reviewed. Replace the student metadata
-placeholders before submitting the documents.
+Both were rendered and visually reviewed. The student name and roll number are
+filled in; complete the institution, faculty, and submission date before submitting.
 
 ## Regenerating the documents
 

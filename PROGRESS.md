@@ -56,7 +56,8 @@ experiments, author evidence-based artifacts, visually inspect, package.
   every bundled file against `results/manifest.json` SHA-256 entries.
 
 ## User handoff
-Required deliverables completed. Replace student metadata before submission.
+Required deliverables completed. Complete institution, faculty and submission date
+before submission; student name and roll number are filled in.
 Use README setup/run commands and docs/demo_script.md for the live presentation.
 No critical acceptance failure remains; limitations below are intentional scope.
 
@@ -87,3 +88,16 @@ CBS omitted. Local python-docx/python-pptx fallback used because the required
 bundled artifact runtime loader was unavailable. LibreOffice 26.8.0.3 ran from
 a downloaded, checksum-verified temporary official-vendor image, not an installed
 user desktop app. No PowerPoint-native inspection claim is made.
+
+## Student details update
+- User supplied Shiveshwar Kumar Sah and BL.EN.U4CSE23072. Updated README,
+  report/slide covers, report Markdown, Office author/identifier metadata and
+  artifact-builder constants so regeneration preserves the supplied identity.
+- Institution, faculty and submission date remain placeholders, without guessing.
+- Rebuilt DOCX/PPTX and both PDFs. Canonical document render produced 15 pages;
+  all pages reviewed, including the longer cover line and reproduction note.
+- Cover slide reviewed against the original. All other PPTX parts except core
+  metadata are unchanged; report pages 2–14 are pixel-identical to prior QA.
+- Verified supplied details in both PDF covers and Office metadata, and checked
+  that no student-name or roll-number placeholders remain in either package.
+- Updated clean archive and manifest for the personalized submission.

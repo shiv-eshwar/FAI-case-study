@@ -32,6 +32,14 @@ SHA-256 verified against Homebrew's vendor metadata before use:
 `8858d8058da4f862f47559486814e65efc27294da67c5e4bb56b006b1ee59f89`.
 Rendering binaries, disk image and QA PNGs are excluded from submission.
 
+After the student supplied their details, both covers and Office properties were
+updated to Shiveshwar Kumar Sah, BL.EN.U4CSE23072. Both PDFs were regenerated.
+The report remained 15 pages and every page was reviewed; pages 2–14 were also
+pixel-identical to the earlier canonical render. The updated title slide was
+visually reviewed. PPTX part comparison confirmed only slide 1 and core properties
+changed. No student-name or roll-number placeholders remain in either Office
+package or PDF. Institution, faculty and submission date await supplied details.
+
 ## Simulation evidence
 
 Headless Agg exports produced real GIF/PNG files from saved JSON paths. The

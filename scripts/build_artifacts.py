@@ -26,6 +26,8 @@ from warehouse_ai.validation import metrics
 from warehouse_ai.visualization import export
 
 ROOT = Path(__file__).resolve().parents[1]
+STUDENT_NAME = "Shiveshwar Kumar Sah"
+ROLL_NUMBER = "BL.EN.U4CSE23072"
 
 
 def main():
@@ -89,7 +91,7 @@ def main():
         {
             "title": "Multi Agent Warehouse Robot Coordination Using A Star Search",
             "paras": [
-                "Fundamentals of AI undergraduate case study\n[Student Name]   [Roll Number]\n[Institution]   [Faculty]   [Submission Date]",
+                f"Fundamentals of AI undergraduate case study\n{STUDENT_NAME}   {ROLL_NUMBER}\n[Institution]   [Faculty]   [Submission Date]",
                 "Abstract",
                 "This case study implements and evaluates robot coordination for a single delivery wave in a static warehouse grid. Spatial A* with Manhattan distance supplies an independent-routing baseline. A centralized coordinator then searches states containing position and time, using vertex reservations, directed edge checks, waiting actions and permanent terminal goal occupancy. Fixed priorities and a bounded portfolio of deterministic priority attempts share the same low-level search. An independent validator inspects legal transitions and simultaneous occupancy before any coordinated plan is accepted. Experiments use a fixed shelf layout, four robot counts and five fixed seeds, together with six diagnostic scenarios. Both coordinators completed all twenty aggregate instances safely, while independent routing was safe on ten. At six robots, portfolio planning had a higher paired mean travel cost than fixed order, illustrating that retries do not globally optimize the objective. The default six-robot plan completes in twenty-one ticks. Automated tests cover an independent BFS oracle, collision semantics, goal occupancy, order sensitivity, bounded failure, JSON replay and headless rendering. Editable artifacts, saved evidence and offline reproduction commands accompany the implementation.",
                 "Scope and demonstrated outcome",
@@ -375,7 +377,7 @@ def main():
             ],
             "code": "python -m pip install -e '.[test]'\npython -m warehouse_ai plan --scenario configs/default.json --algorithm cooperative --seed 42\npython -m warehouse_ai replay --plan results/default_plan.json\npython -m warehouse_ai benchmark --config configs/benchmark.json\npython -m warehouse_ai render --plan results/default_plan.json --output assets/demo.gif\npython -m pytest -q",
             "after": [
-                "Use docs/demo_script.md for a short demonstration, docs/code_walkthrough.md for source-reading order and docs/viva_guide.md for explanations. Replace only the student metadata placeholders before submission. AI assisted the implementation, testing and artifact preparation; adapt any disclosure to course policy without inventing authorship declarations.",
+                "Use docs/demo_script.md for a short demonstration, docs/code_walkthrough.md for source-reading order and docs/viva_guide.md for explanations. Fill in the institution, faculty and submission date before submission. AI assisted the implementation, testing and artifact preparation; adapt any disclosure to course policy without inventing authorship declarations.",
                 "The local document fallback uses python-docx and python-pptx because the prescribed bundled artifact runtime was unavailable. DOCX/PPTX are genuine editable Office packages. PDF and visual QA status are recorded honestly in docs/QA.md. The submission ZIP excludes environments, caches and large temporary renders.",
             ],
         },
@@ -516,7 +518,8 @@ def build_report(pages):
     doc.core_properties.title = (
         "Multi-Agent Warehouse Robot Coordination Using A* Search"
     )
-    doc.core_properties.author = "[Student Name]"
+    doc.core_properties.author = STUDENT_NAME
+    doc.core_properties.identifier = ROLL_NUMBER
     doc.save(ROOT / "docs/report.docx")
     (ROOT / "docs/report.md").write_text("\n\n".join(md))
 
@@ -618,7 +621,7 @@ def build_slides(summary, meta, tests, m, examples, references):
     )
     text(
         s,
-        "Fundamentals of AI\n[Student Name]   [Roll Number]\n[Institution]   [Faculty]   [Submission Date]",
+        f"Fundamentals of AI\n{STUDENT_NAME}   {ROLL_NUMBER}\n[Institution]   [Faculty]   [Submission Date]",
         0.75,
         4.05,
         11.5,
@@ -833,7 +836,8 @@ def build_slides(summary, meta, tests, m, examples, references):
     prs.core_properties.title = (
         "Multi-Agent Warehouse Robot Coordination Using A* Search"
     )
-    prs.core_properties.author = "[Student Name]"
+    prs.core_properties.author = STUDENT_NAME
+    prs.core_properties.identifier = ROLL_NUMBER
     prs.save(ROOT / "slides/presentation.pptx")
 
 
