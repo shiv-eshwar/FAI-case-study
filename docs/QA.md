@@ -50,6 +50,9 @@ For GitHub submission, source formatting and import cleanup were followed by
 another full local test run: **22 passed in 1.06s**, retained in
 results/github_test_execution.txt. Ruff lint checks passed. A GitHub Actions
 workflow additionally runs the suite on Ubuntu with Python 3.11 and 3.12.
+Both jobs passed in GitHub Actions run 37352499355. The repository was also cloned
+back from GitHub; its suite passed all 22 tests in 1.04s, and its bundled manifest
+and README image/document paths verified successfully.
 
 A clean Python 3.12 venv installed only `.[test]` with PYTHONPATH removed. It ran
 all 22 tests, planned the default safely, completed all 78 benchmark records and

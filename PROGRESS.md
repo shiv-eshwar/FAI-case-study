@@ -73,6 +73,12 @@ No critical acceptance failure remains; limitations below are intentional scope.
 - Added read-only-permission GitHub Actions tests on Python 3.11 and 3.12.
 - Git and ZIP exclusions cover environments, caches, generated build directories,
   and credentials. Raw measured data and report/slide evidence remain unchanged.
+- Published initial commit `6c6313f` to `main`, then cloned the public repository
+  into `/tmp/fai-github-submission-6c6313f`. That clone passed all 22 tests in 1.04s;
+  all 82 SHA-256 manifest entries and 16 README links matched.
+- Initial GitHub Actions run 37352499355 passed on Python 3.11 and 3.12. Updated
+  checkout/setup-python to verified current release tags to remove deprecated
+  Node.js action-runtime warnings. Final workflow result is visible on GitHub.
 
 ## Known scope limits
 Prioritized planning is incomplete and not globally optimal. Passing-bay fixture
