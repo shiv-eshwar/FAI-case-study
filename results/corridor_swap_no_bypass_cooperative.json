@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "corridor swap no bypass",
+    "width": 3,
+    "height": 1,
+    "obstacles": [],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          2,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {},
+  "status": "bounded_search_exhausted",
+  "algorithm": "cooperative",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 9.665993275120854e-06
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 7.875001756474376e-06
+    },
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 7.333001121878624e-06
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 7.33401975594461e-06
+    }
+  ],
+  "expanded": 26,
+  "generated": 38,
+  "elapsed": 5.208401125855744e-05,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "path IDs must match every robot exactly",
+      "A: missing or empty path",
+      "B: missing or empty path"
+    ],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

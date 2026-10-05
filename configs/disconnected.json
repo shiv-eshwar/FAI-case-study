@@ -1,0 +1,24 @@
+{
+  "name": "shelf separates endpoints",
+  "width": 3,
+  "height": 1,
+  "obstacles": [
+    [
+      1,
+      0
+    ]
+  ],
+  "robots": [
+    {
+      "id": "A",
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        2,
+        0
+      ]
+    }
+  ]
+}

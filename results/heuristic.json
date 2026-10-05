@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 11,
+    "heuristic": "Manhattan",
+    "cost": 10,
+    "expanded": 29,
+    "generated": 41,
+    "max_frontier": 16,
+    "elapsed": 2.7542002499103546e-05
+  },
+  {
+    "seed": 11,
+    "heuristic": "zero",
+    "cost": 10,
+    "expanded": 112,
+    "generated": 130,
+    "max_frontier": 25,
+    "elapsed": 9.433299419470131e-05
+  },
+  {
+    "seed": 22,
+    "heuristic": "Manhattan",
+    "cost": 10,
+    "expanded": 20,
+    "generated": 28,
+    "max_frontier": 10,
+    "elapsed": 1.8207996618002653e-05
+  },
+  {
+    "seed": 22,
+    "heuristic": "zero",
+    "cost": 10,
+    "expanded": 81,
+    "generated": 93,
+    "max_frontier": 13,
+    "elapsed": 6.63330138195306e-05
+  },
+  {
+    "seed": 33,
+    "heuristic": "Manhattan",
+    "cost": 15,
+    "expanded": 16,
+    "generated": 31,
+    "max_frontier": 16,
+    "elapsed": 1.6167003195732832e-05
+  },
+  {
+    "seed": 33,
+    "heuristic": "zero",
+    "cost": 15,
+    "expanded": 142,
+    "generated": 150,
+    "max_frontier": 14,
+    "elapsed": 0.00010933299199678004
+  },
+  {
+    "seed": 44,
+    "heuristic": "Manhattan",
+    "cost": 9,
+    "expanded": 16,
+    "generated": 25,
+    "max_frontier": 10,
+    "elapsed": 1.562500256113708e-05
+  },
+  {
+    "seed": 44,
+    "heuristic": "zero",
+    "cost": 9,
+    "expanded": 91,
+    "generated": 104,
+    "max_frontier": 17,
+    "elapsed": 7.866701344028115e-05
+  },
+  {
+    "seed": 55,
+    "heuristic": "Manhattan",
+    "cost": 15,
+    "expanded": 16,
+    "generated": 39,
+    "max_frontier": 24,
+    "elapsed": 1.8999999156221747e-05
+  },
+  {
+    "seed": 55,
+    "heuristic": "zero",
+    "cost": 15,
+    "expanded": 128,
+    "generated": 140,
+    "max_frontier": 16,
+    "elapsed": 0.00010212502093054354
+  }
+]

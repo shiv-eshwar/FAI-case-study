@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "corridor swap no bypass",
+    "width": 3,
+    "height": 1,
+    "obstacles": [],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          2,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "A": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "B": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "status": "unsafe",
+  "algorithm": "independent",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [],
+  "expanded": 6,
+  "generated": 6,
+  "elapsed": 1.4208984794095159e-05,
+  "validation": {
+    "valid": false,
+    "errors": [],
+    "conflicts": [
+      {
+        "kind": "vertex",
+        "tick": 1,
+        "robots": [
+          "A",
+          "B"
+        ],
+        "cells": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0
+  }
+}

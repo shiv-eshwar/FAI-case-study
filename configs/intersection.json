@@ -1,0 +1,30 @@
+{
+  "name": "open intersection",
+  "width": 3,
+  "height": 3,
+  "obstacles": [],
+  "robots": [
+    {
+      "id": "A",
+      "start": [
+        0,
+        1
+      ],
+      "goal": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": "B",
+      "start": [
+        1,
+        0
+      ],
+      "goal": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "run_records": 78,
+  "report_pages": 15,
+  "slides": 15,
+  "default": {
+    "sum_cost": 111,
+    "makespan": 21,
+    "moves": 110,
+    "waits": 1
+  },
+  "baseline_vertex_conflicts": 1,
+  "office_packages": "ZIP integrity checked; native charts, workbooks and speaker notes present",
+  "saved_summaries": "reconciled with raw run records"
+}

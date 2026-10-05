@@ -1,0 +1,3381 @@
+[
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=11",
+    "seed": 11,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 7.312500383704901e-05,
+    "expanded": 32,
+    "generated": 47,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 12,
+    "makespan": 10,
+    "moves": 12,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=11",
+    "seed": 11,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00015304199769161642,
+    "expanded": 76,
+    "generated": 161,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 44,
+        "generated": 114,
+        "elapsed": 0.00010437500895932317
+      }
+    ],
+    "sum_cost": 12,
+    "makespan": 10,
+    "moves": 12,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=11",
+    "seed": 11,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00015320797683671117,
+    "expanded": 76,
+    "generated": 161,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 44,
+        "generated": 114,
+        "elapsed": 9.40839818213135e-05
+      }
+    ],
+    "sum_cost": 12,
+    "makespan": 10,
+    "moves": 12,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=22",
+    "seed": 22,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 6.987500819377601e-05,
+    "expanded": 52,
+    "generated": 77,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 23,
+    "makespan": 13,
+    "moves": 23,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=22",
+    "seed": 22,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00019354201504029334,
+    "expanded": 104,
+    "generated": 250,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 52,
+        "generated": 173,
+        "elapsed": 0.00012433400843292475
+      }
+    ],
+    "sum_cost": 23,
+    "makespan": 13,
+    "moves": 23,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=22",
+    "seed": 22,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001970830198843032,
+    "expanded": 104,
+    "generated": 250,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R1"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R1"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 52,
+        "generated": 173,
+        "elapsed": 0.00011862500105053186
+      }
+    ],
+    "sum_cost": 23,
+    "makespan": 13,
+    "moves": 23,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=33",
+    "seed": 33,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 6.554200081154704e-05,
+    "expanded": 43,
+    "generated": 81,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 29,
+    "makespan": 15,
+    "moves": 29,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=33",
+    "seed": 33,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001807080116122961,
+    "expanded": 90,
+    "generated": 243,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 47,
+        "generated": 162,
+        "elapsed": 0.00011662501492537558
+      }
+    ],
+    "sum_cost": 29,
+    "makespan": 15,
+    "moves": 29,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=33",
+    "seed": 33,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001979160006158054,
+    "expanded": 90,
+    "generated": 243,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 47,
+        "generated": 162,
+        "elapsed": 0.00011095800437033176
+      }
+    ],
+    "sum_cost": 29,
+    "makespan": 15,
+    "moves": 29,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=44",
+    "seed": 44,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 4.283300950191915e-05,
+    "expanded": 29,
+    "generated": 49,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 16,
+    "makespan": 9,
+    "moves": 16,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=44",
+    "seed": 44,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00010795798152685165,
+    "expanded": 58,
+    "generated": 148,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 29,
+        "generated": 99,
+        "elapsed": 6.645798566751182e-05
+      }
+    ],
+    "sum_cost": 16,
+    "makespan": 9,
+    "moves": 16,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=44",
+    "seed": 44,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00011587500921450555,
+    "expanded": 58,
+    "generated": 148,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 29,
+        "generated": 99,
+        "elapsed": 6.550000398419797e-05
+      }
+    ],
+    "sum_cost": 16,
+    "makespan": 9,
+    "moves": 16,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=55",
+    "seed": 55,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001573750050738454,
+    "expanded": 128,
+    "generated": 197,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 43,
+    "makespan": 28,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=55",
+    "seed": 55,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.000497667002491653,
+    "expanded": 256,
+    "generated": 643,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 128,
+        "generated": 446,
+        "elapsed": 0.0003384589799679816
+      }
+    ],
+    "sum_cost": 43,
+    "makespan": 28,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=2 seed=55",
+    "seed": 55,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0004755420086439699,
+    "expanded": 256,
+    "generated": 643,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R1"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R1"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 128,
+        "generated": 446,
+        "elapsed": 0.0002922910207416862
+      }
+    ],
+    "sum_cost": 43,
+    "makespan": 28,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=11",
+    "seed": 11,
+    "robot_count": 4,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 9.920800221152604e-05,
+    "expanded": 63,
+    "generated": 87,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 24,
+    "makespan": 13,
+    "moves": 24,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=11",
+    "seed": 11,
+    "robot_count": 4,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00022720900597050786,
+    "expanded": 122,
+    "generated": 273,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 59,
+        "generated": 186,
+        "elapsed": 0.00013287499314174056
+      }
+    ],
+    "sum_cost": 24,
+    "makespan": 13,
+    "moves": 24,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=11",
+    "seed": 11,
+    "robot_count": 4,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00024537500576116145,
+    "expanded": 126,
+    "generated": 284,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R1",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R1",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 63,
+        "generated": 197,
+        "elapsed": 0.00013925001258030534
+      }
+    ],
+    "sum_cost": 24,
+    "makespan": 13,
+    "moves": 24,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=22",
+    "seed": 22,
+    "robot_count": 4,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00013437500456348062,
+    "expanded": 80,
+    "generated": 129,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 43,
+    "makespan": 13,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=22",
+    "seed": 22,
+    "robot_count": 4,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00031883298652246594,
+    "expanded": 168,
+    "generated": 410,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 88,
+        "generated": 281,
+        "elapsed": 0.00019837499712593853
+      }
+    ],
+    "sum_cost": 43,
+    "makespan": 13,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=22",
+    "seed": 22,
+    "robot_count": 4,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00033066701143980026,
+    "expanded": 168,
+    "generated": 410,
+    "attempt_count": 1,
+    "selected_order": [
+      "R3",
+      "R1",
+      "R4",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R3",
+          "R1",
+          "R4",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 88,
+        "generated": 281,
+        "elapsed": 0.00019870800315402448
+      }
+    ],
+    "sum_cost": 43,
+    "makespan": 13,
+    "moves": 43,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=33",
+    "seed": 33,
+    "robot_count": 4,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001669999910518527,
+    "expanded": 116,
+    "generated": 183,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 51,
+    "makespan": 17,
+    "moves": 51,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=33",
+    "seed": 33,
+    "robot_count": 4,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00044666699250228703,
+    "expanded": 232,
+    "generated": 574,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 116,
+        "generated": 391,
+        "elapsed": 0.0002818749926518649
+      }
+    ],
+    "sum_cost": 51,
+    "makespan": 17,
+    "moves": 51,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=33",
+    "seed": 33,
+    "robot_count": 4,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0004726659972220659,
+    "expanded": 232,
+    "generated": 577,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R4",
+      "R3",
+      "R1"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R4",
+          "R3",
+          "R1"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 116,
+        "generated": 394,
+        "elapsed": 0.0002916249795816839
+      }
+    ],
+    "sum_cost": 51,
+    "makespan": 17,
+    "moves": 51,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=44",
+    "seed": 44,
+    "robot_count": 4,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 2,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001573750050738454,
+    "expanded": 107,
+    "generated": 159,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 46,
+    "makespan": 16,
+    "moves": 46,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=44",
+    "seed": 44,
+    "robot_count": 4,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0010595410130918026,
+    "expanded": 560,
+    "generated": 1020,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 453,
+        "generated": 861,
+        "elapsed": 0.0009051249944604933
+      }
+    ],
+    "sum_cost": 56,
+    "makespan": 16,
+    "moves": 50,
+    "waits": 6
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=44",
+    "seed": 44,
+    "robot_count": 4,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0010266670142300427,
+    "expanded": 544,
+    "generated": 988,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R1",
+      "R4",
+      "R3"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R1",
+          "R4",
+          "R3"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 437,
+        "generated": 829,
+        "elapsed": 0.0008594999962951988
+      }
+    ],
+    "sum_cost": 56,
+    "makespan": 16,
+    "moves": 50,
+    "waits": 6
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=55",
+    "seed": 55,
+    "robot_count": 4,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0001833749993238598,
+    "expanded": 119,
+    "generated": 184,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 49,
+    "makespan": 23,
+    "moves": 49,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=55",
+    "seed": 55,
+    "robot_count": 4,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0004578340158332139,
+    "expanded": 238,
+    "generated": 590,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 119,
+        "generated": 406,
+        "elapsed": 0.00027874999796040356
+      }
+    ],
+    "sum_cost": 49,
+    "makespan": 23,
+    "moves": 49,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=4 seed=55",
+    "seed": 55,
+    "robot_count": 4,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00046087498776614666,
+    "expanded": 238,
+    "generated": 590,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R3",
+      "R1",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R3",
+          "R1",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 119,
+        "generated": 406,
+        "elapsed": 0.00027108401991426945
+      }
+    ],
+    "sum_cost": 49,
+    "makespan": 23,
+    "moves": 49,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=11",
+    "seed": 11,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00018508301582187414,
+    "expanded": 102,
+    "generated": 162,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 61,
+    "makespan": 15,
+    "moves": 61,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=11",
+    "seed": 11,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00042758299969136715,
+    "expanded": 209,
+    "generated": 497,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 107,
+        "generated": 335,
+        "elapsed": 0.0002414170012343675
+      }
+    ],
+    "sum_cost": 61,
+    "makespan": 15,
+    "moves": 61,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=11",
+    "seed": 11,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0004645420121960342,
+    "expanded": 224,
+    "generated": 535,
+    "attempt_count": 1,
+    "selected_order": [
+      "R4",
+      "R3",
+      "R5",
+      "R6",
+      "R1",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R4",
+          "R3",
+          "R5",
+          "R6",
+          "R1",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 122,
+        "generated": 373,
+        "elapsed": 0.00026904200785793364
+      }
+    ],
+    "sum_cost": 65,
+    "makespan": 15,
+    "moves": 65,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=22",
+    "seed": 22,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00033149999217130244,
+    "expanded": 228,
+    "generated": 331,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 90,
+    "makespan": 21,
+    "moves": 90,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=22",
+    "seed": 22,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0008857079956214875,
+    "expanded": 456,
+    "generated": 1092,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 228,
+        "generated": 761,
+        "elapsed": 0.0005404590046964586
+      }
+    ],
+    "sum_cost": 90,
+    "makespan": 21,
+    "moves": 90,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=22",
+    "seed": 22,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0008877080108504742,
+    "expanded": 456,
+    "generated": 1090,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R3",
+      "R6",
+      "R5",
+      "R4",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R3",
+          "R6",
+          "R5",
+          "R4",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 228,
+        "generated": 759,
+        "elapsed": 0.0005423749971669167
+      }
+    ],
+    "sum_cost": 90,
+    "makespan": 21,
+    "moves": 90,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=33",
+    "seed": 33,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 1,
+    "elapsed": 0.0002437919902149588,
+    "expanded": 159,
+    "generated": 237,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 68,
+    "makespan": 16,
+    "moves": 68,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=33",
+    "seed": 33,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0006972079863771796,
+    "expanded": 355,
+    "generated": 822,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 196,
+        "generated": 585,
+        "elapsed": 0.0004486250109039247
+      }
+    ],
+    "sum_cost": 70,
+    "makespan": 18,
+    "moves": 70,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=33",
+    "seed": 33,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0006120000034570694,
+    "expanded": 317,
+    "generated": 755,
+    "attempt_count": 1,
+    "selected_order": [
+      "R3",
+      "R4",
+      "R1",
+      "R5",
+      "R6",
+      "R2"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R3",
+          "R4",
+          "R1",
+          "R5",
+          "R6",
+          "R2"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 158,
+        "generated": 518,
+        "elapsed": 0.0003585000231396407
+      }
+    ],
+    "sum_cost": 68,
+    "makespan": 16,
+    "moves": 68,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=44",
+    "seed": 44,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 5,
+    "edge_swap_conflicts": 1,
+    "elapsed": 0.00037808300112374127,
+    "expanded": 233,
+    "generated": 325,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 86,
+    "makespan": 21,
+    "moves": 86,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=44",
+    "seed": 44,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0009418750123586506,
+    "expanded": 521,
+    "generated": 1113,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 288,
+        "generated": 788,
+        "elapsed": 0.0006072079995647073
+      }
+    ],
+    "sum_cost": 90,
+    "makespan": 21,
+    "moves": 88,
+    "waits": 2
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=44",
+    "seed": 44,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.001670500001637265,
+    "expanded": 899,
+    "generated": 1702,
+    "attempt_count": 1,
+    "selected_order": [
+      "R4",
+      "R5",
+      "R6",
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R4",
+          "R5",
+          "R6",
+          "R1",
+          "R2",
+          "R3"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 666,
+        "generated": 1377,
+        "elapsed": 0.0013051660207565874
+      }
+    ],
+    "sum_cost": 100,
+    "makespan": 21,
+    "moves": 92,
+    "waits": 8
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=55",
+    "seed": 55,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00028887498774565756,
+    "expanded": 160,
+    "generated": 246,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 59,
+    "makespan": 26,
+    "moves": 59,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=55",
+    "seed": 55,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0008939580002333969,
+    "expanded": 428,
+    "generated": 944,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 268,
+        "generated": 698,
+        "elapsed": 0.0006047500064596534
+      }
+    ],
+    "sum_cost": 66,
+    "makespan": 26,
+    "moves": 61,
+    "waits": 5
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=6 seed=55",
+    "seed": 55,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0008797910122666508,
+    "expanded": 428,
+    "generated": 945,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R4",
+      "R6",
+      "R3",
+      "R1",
+      "R5"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R4",
+          "R6",
+          "R3",
+          "R1",
+          "R5"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 268,
+        "generated": 699,
+        "elapsed": 0.0005677090084645897
+      }
+    ],
+    "sum_cost": 66,
+    "makespan": 26,
+    "moves": 61,
+    "waits": 5
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=11",
+    "seed": 11,
+    "robot_count": 8,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00036154198460280895,
+    "expanded": 189,
+    "generated": 277,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 87,
+    "makespan": 21,
+    "moves": 87,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=11",
+    "seed": 11,
+    "robot_count": 8,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.000823833019239828,
+    "expanded": 387,
+    "generated": 883,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 198,
+        "generated": 606,
+        "elapsed": 0.0004619169922079891
+      }
+    ],
+    "sum_cost": 88,
+    "makespan": 21,
+    "moves": 87,
+    "waits": 1
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=11",
+    "seed": 11,
+    "robot_count": 8,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0008248330268543214,
+    "expanded": 390,
+    "generated": 897,
+    "attempt_count": 1,
+    "selected_order": [
+      "R6",
+      "R2",
+      "R3",
+      "R5",
+      "R1",
+      "R4",
+      "R8",
+      "R7"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R6",
+          "R2",
+          "R3",
+          "R5",
+          "R1",
+          "R4",
+          "R8",
+          "R7"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 201,
+        "generated": 620,
+        "elapsed": 0.0004453329893294722
+      }
+    ],
+    "sum_cost": 88,
+    "makespan": 21,
+    "moves": 87,
+    "waits": 1
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=22",
+    "seed": 22,
+    "robot_count": 8,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 2,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0006962500046938658,
+    "expanded": 497,
+    "generated": 662,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 139,
+    "makespan": 26,
+    "moves": 139,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=22",
+    "seed": 22,
+    "robot_count": 8,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0034115829912479967,
+    "expanded": 1815,
+    "generated": 3284,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 1318,
+        "generated": 2622,
+        "elapsed": 0.0026982499985024333
+      }
+    ],
+    "sum_cost": 151,
+    "makespan": 26,
+    "moves": 143,
+    "waits": 8
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=22",
+    "seed": 22,
+    "robot_count": 8,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0032433340093120933,
+    "expanded": 1776,
+    "generated": 3236,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R6",
+      "R4",
+      "R7",
+      "R5",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R6",
+          "R4",
+          "R7",
+          "R5",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 1279,
+        "generated": 2574,
+        "elapsed": 0.0025099589838646352
+      }
+    ],
+    "sum_cost": 151,
+    "makespan": 26,
+    "moves": 143,
+    "waits": 8
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=33",
+    "seed": 33,
+    "robot_count": 8,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 5,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0005379999929573387,
+    "expanded": 324,
+    "generated": 452,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 107,
+    "makespan": 27,
+    "moves": 107,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=33",
+    "seed": 33,
+    "robot_count": 8,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0020185000030323863,
+    "expanded": 1059,
+    "generated": 2010,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 735,
+        "generated": 1558,
+        "elapsed": 0.0014608750061597675
+      }
+    ],
+    "sum_cost": 121,
+    "makespan": 27,
+    "moves": 115,
+    "waits": 6
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=33",
+    "seed": 33,
+    "robot_count": 8,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0021063749736640602,
+    "expanded": 1071,
+    "generated": 2046,
+    "attempt_count": 1,
+    "selected_order": [
+      "R2",
+      "R5",
+      "R4",
+      "R3",
+      "R8",
+      "R6",
+      "R7",
+      "R1"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R2",
+          "R5",
+          "R4",
+          "R3",
+          "R8",
+          "R6",
+          "R7",
+          "R1"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 747,
+        "generated": 1594,
+        "elapsed": 0.0015262499800883234
+      }
+    ],
+    "sum_cost": 121,
+    "makespan": 27,
+    "moves": 115,
+    "waits": 6
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=44",
+    "seed": 44,
+    "robot_count": 8,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0004416659940034151,
+    "expanded": 239,
+    "generated": 341,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 97,
+    "makespan": 24,
+    "moves": 97,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=44",
+    "seed": 44,
+    "robot_count": 8,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0009905420010909438,
+    "expanded": 501,
+    "generated": 1140,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 262,
+        "generated": 799,
+        "elapsed": 0.0005696250009350479
+      }
+    ],
+    "sum_cost": 99,
+    "makespan": 24,
+    "moves": 99,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=44",
+    "seed": 44,
+    "robot_count": 8,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0010103329841513187,
+    "expanded": 488,
+    "generated": 1137,
+    "attempt_count": 1,
+    "selected_order": [
+      "R5",
+      "R2",
+      "R3",
+      "R1",
+      "R7",
+      "R8",
+      "R4",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R5",
+          "R2",
+          "R3",
+          "R1",
+          "R7",
+          "R8",
+          "R4",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 249,
+        "generated": 796,
+        "elapsed": 0.0005502499989233911
+      }
+    ],
+    "sum_cost": 99,
+    "makespan": 24,
+    "moves": 99,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=55",
+    "seed": 55,
+    "robot_count": 8,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 1,
+    "elapsed": 0.00047658299445174634,
+    "expanded": 258,
+    "generated": 414,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 107,
+    "makespan": 21,
+    "moves": 107,
+    "waits": 0
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=55",
+    "seed": 55,
+    "robot_count": 8,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0012519590090960264,
+    "expanded": 616,
+    "generated": 1372,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 358,
+        "generated": 958,
+        "elapsed": 0.0007801659812685102
+      }
+    ],
+    "sum_cost": 112,
+    "makespan": 21,
+    "moves": 111,
+    "waits": 1
+  },
+  {
+    "group": "aggregate",
+    "scenario": "shelves n=8 seed=55",
+    "seed": 55,
+    "robot_count": 8,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0013198330125305802,
+    "expanded": 648,
+    "generated": 1477,
+    "attempt_count": 1,
+    "selected_order": [
+      "R3",
+      "R5",
+      "R2",
+      "R4",
+      "R1",
+      "R8",
+      "R7",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R3",
+          "R5",
+          "R2",
+          "R4",
+          "R1",
+          "R8",
+          "R7",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 390,
+        "generated": 1063,
+        "elapsed": 0.0008444169943686575
+      }
+    ],
+    "sum_cost": 112,
+    "makespan": 21,
+    "moves": 111,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "open intersection",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 1.4791992725804448e-05,
+    "expanded": 6,
+    "generated": 14,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 4,
+    "makespan": 2,
+    "moves": 4,
+    "waits": 0
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "open intersection",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 3.9875012589618564e-05,
+    "expanded": 13,
+    "generated": 36,
+    "attempt_count": 1,
+    "selected_order": [
+      "A",
+      "B"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 7,
+        "generated": 22,
+        "elapsed": 1.9166996935382485e-05
+      }
+    ],
+    "sum_cost": 5,
+    "makespan": 3,
+    "moves": 4,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "open intersection",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 5.270799738354981e-05,
+    "expanded": 13,
+    "generated": 36,
+    "attempt_count": 1,
+    "selected_order": [
+      "A",
+      "B"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 7,
+        "generated": 22,
+        "elapsed": 1.9083003280684352e-05
+      }
+    ],
+    "sum_cost": 5,
+    "makespan": 3,
+    "moves": 4,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor with passing bay",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 2.2541993530467153e-05,
+    "expanded": 10,
+    "generated": 12,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 8,
+    "makespan": 4,
+    "moves": 8,
+    "waits": 0
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor with passing bay",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "bounded_search_exhausted",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 5.4459000239148736e-05,
+    "expanded": 32,
+    "generated": 50,
+    "attempt_count": 2,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 2.158299321308732e-05
+      },
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 1.7915997887030244e-05
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor with passing bay",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "bounded_search_exhausted",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 9.466600022278726e-05,
+    "expanded": 54,
+    "generated": 88,
+    "attempt_count": 4,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 1.9291997887194157e-05
+      },
+      {
+        "order": [
+          "B",
+          "A"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 1.77919864654541e-05
+      },
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 1.6583013348281384e-05
+      },
+      {
+        "order": [
+          "B",
+          "A"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 11,
+        "generated": 19,
+        "elapsed": 1.6332982340827584e-05
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf warehouse",
+    "seed": 42,
+    "robot_count": 6,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 2,
+    "edge_swap_conflicts": 2,
+    "elapsed": 0.000244999973801896,
+    "expanded": 110,
+    "generated": 236,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 104,
+    "makespan": 19,
+    "moves": 104,
+    "waits": 0
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf warehouse",
+    "seed": 42,
+    "robot_count": 6,
+    "algorithm": "fixed",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0007242919818963856,
+    "expanded": 325,
+    "generated": 867,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 215,
+        "generated": 631,
+        "elapsed": 0.00047166700824163854
+      }
+    ],
+    "sum_cost": 111,
+    "makespan": 21,
+    "moves": 110,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf warehouse",
+    "seed": 42,
+    "robot_count": 6,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.0007077089976519346,
+    "expanded": 323,
+    "generated": 861,
+    "attempt_count": 1,
+    "selected_order": [
+      "R1",
+      "R2",
+      "R5",
+      "R6",
+      "R3",
+      "R4"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "R1",
+          "R2",
+          "R5",
+          "R6",
+          "R3",
+          "R4"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 213,
+        "generated": 625,
+        "elapsed": 0.00045175000559538603
+      }
+    ],
+    "sum_cost": 111,
+    "makespan": 21,
+    "moves": 110,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "goal blocks bay exit",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 1.620801049284637e-05,
+    "expanded": 5,
+    "generated": 6,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 3,
+    "makespan": 2,
+    "moves": 3,
+    "waits": 0
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "goal blocks bay exit",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "bounded_search_exhausted",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 0.00014024999109096825,
+    "expanded": 131,
+    "generated": 134,
+    "attempt_count": 2,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 43,
+        "generated": 44,
+        "elapsed": 4.733301466330886e-05
+      },
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 83,
+        "generated": 84,
+        "elapsed": 7.991600432433188e-05
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "goal blocks bay exit",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "success",
+    "valid": true,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 3.8291997043415904e-05,
+    "expanded": 11,
+    "generated": 17,
+    "attempt_count": 1,
+    "selected_order": [
+      "B",
+      "A"
+    ],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "B",
+          "A"
+        ],
+        "horizon": 40,
+        "status": "success",
+        "expanded": 6,
+        "generated": 11,
+        "elapsed": 1.2959004379808903e-05
+      }
+    ],
+    "sum_cost": 4,
+    "makespan": 2,
+    "moves": 3,
+    "waits": 1
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor swap no bypass",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "independent",
+    "status": "unsafe",
+    "valid": false,
+    "vertex_conflicts": 1,
+    "edge_swap_conflicts": 0,
+    "elapsed": 1.4208984794095159e-05,
+    "expanded": 6,
+    "generated": 6,
+    "attempt_count": 0,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [],
+    "sum_cost": 4,
+    "makespan": 2,
+    "moves": 4,
+    "waits": 0
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor swap no bypass",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "fixed",
+    "status": "bounded_search_exhausted",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 2.8750015189871192e-05,
+    "expanded": 16,
+    "generated": 22,
+    "attempt_count": 2,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 1.116600469686091e-05
+      },
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 8.37500556372106e-06
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "corridor swap no bypass",
+    "seed": 42,
+    "robot_count": 2,
+    "algorithm": "cooperative",
+    "status": "bounded_search_exhausted",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 5.208401125855744e-05,
+    "expanded": 26,
+    "generated": 38,
+    "attempt_count": 4,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 9.665993275120854e-06
+      },
+      {
+        "order": [
+          "B",
+          "A"
+        ],
+        "horizon": 40,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 7.875001756474376e-06
+      },
+      {
+        "order": [
+          "A",
+          "B"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 7.333001121878624e-06
+      },
+      {
+        "order": [
+          "B",
+          "A"
+        ],
+        "horizon": 80,
+        "status": "bounded_search_exhausted",
+        "expanded": 5,
+        "generated": 8,
+        "elapsed": 7.33401975594461e-06
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf separates endpoints",
+    "seed": 42,
+    "robot_count": 1,
+    "algorithm": "independent",
+    "status": "static_disconnection",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 4.792003892362118e-06,
+    "expanded": 1,
+    "generated": 1,
+    "attempt_count": 1,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "phase": "static_preflight",
+        "robot": "A",
+        "status": "static_disconnection",
+        "expanded": 1,
+        "generated": 1,
+        "elapsed": 4.292000085115433e-06
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf separates endpoints",
+    "seed": 42,
+    "robot_count": 1,
+    "algorithm": "fixed",
+    "status": "static_disconnection",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 4.417001036927104e-06,
+    "expanded": 1,
+    "generated": 1,
+    "attempt_count": 1,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "phase": "static_preflight",
+        "robot": "A",
+        "status": "static_disconnection",
+        "expanded": 1,
+        "generated": 1,
+        "elapsed": 4.083005478605628e-06
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  },
+  {
+    "group": "diagnostic",
+    "scenario": "shelf separates endpoints",
+    "seed": 42,
+    "robot_count": 1,
+    "algorithm": "cooperative",
+    "status": "static_disconnection",
+    "valid": false,
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0,
+    "elapsed": 3.3329997677356005e-06,
+    "expanded": 1,
+    "generated": 1,
+    "attempt_count": 1,
+    "selected_order": [],
+    "limits": {
+      "horizons": [
+        40,
+        80
+      ],
+      "expansion_limit": 30000,
+      "permutations": 3
+    },
+    "attempts": [
+      {
+        "phase": "static_preflight",
+        "robot": "A",
+        "status": "static_disconnection",
+        "expanded": 1,
+        "generated": 1,
+        "elapsed": 3.082997864112258e-06
+      }
+    ],
+    "sum_cost": null,
+    "makespan": null,
+    "moves": null,
+    "waits": null
+  }
+]

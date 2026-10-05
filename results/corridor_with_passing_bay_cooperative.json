@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "corridor with passing bay",
+    "width": 5,
+    "height": 2,
+    "obstacles": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          4,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          4,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {},
+  "status": "bounded_search_exhausted",
+  "algorithm": "cooperative",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 11,
+      "generated": 19,
+      "elapsed": 1.9291997887194157e-05
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 11,
+      "generated": 19,
+      "elapsed": 1.77919864654541e-05
+    },
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 11,
+      "generated": 19,
+      "elapsed": 1.6583013348281384e-05
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 11,
+      "generated": 19,
+      "elapsed": 1.6332982340827584e-05
+    }
+  ],
+  "expanded": 54,
+  "generated": 88,
+  "elapsed": 9.466600022278726e-05,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "path IDs must match every robot exactly",
+      "A: missing or empty path",
+      "B: missing or empty path"
+    ],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

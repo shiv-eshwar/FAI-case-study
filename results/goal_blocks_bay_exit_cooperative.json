@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "goal blocks bay exit",
+    "width": 3,
+    "height": 2,
+    "obstacles": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          1,
+          1
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "B": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "A": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "status": "success",
+  "algorithm": "cooperative",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "horizon": 40,
+      "status": "success",
+      "expanded": 6,
+      "generated": 11,
+      "elapsed": 1.2959004379808903e-05
+    }
+  ],
+  "expanded": 11,
+  "generated": 17,
+  "elapsed": 3.8291997043415904e-05,
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

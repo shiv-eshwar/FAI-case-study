@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "shelf separates endpoints",
+    "width": 3,
+    "height": 1,
+    "obstacles": [
+      [
+        1,
+        0
+      ]
+    ],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {},
+  "status": "static_disconnection",
+  "algorithm": "cooperative",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "phase": "static_preflight",
+      "robot": "A",
+      "status": "static_disconnection",
+      "expanded": 1,
+      "generated": 1,
+      "elapsed": 3.082997864112258e-06
+    }
+  ],
+  "expanded": 1,
+  "generated": 1,
+  "elapsed": 3.3329997677356005e-06,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "path IDs must match every robot exactly",
+      "A: missing or empty path"
+    ],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

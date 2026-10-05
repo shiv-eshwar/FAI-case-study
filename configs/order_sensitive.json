@@ -1,0 +1,39 @@
+{
+  "name": "goal blocks bay exit",
+  "width": 3,
+  "height": 2,
+  "obstacles": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "robots": [
+    {
+      "id": "A",
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "B",
+      "start": [
+        1,
+        1
+      ],
+      "goal": [
+        2,
+        0
+      ]
+    }
+  ]
+}

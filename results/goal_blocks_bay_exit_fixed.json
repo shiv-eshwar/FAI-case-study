@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "goal blocks bay exit",
+    "width": 3,
+    "height": 2,
+    "obstacles": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          1,
+          1
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {},
+  "status": "bounded_search_exhausted",
+  "algorithm": "fixed",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 43,
+      "generated": 44,
+      "elapsed": 4.733301466330886e-05
+    },
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 83,
+      "generated": 84,
+      "elapsed": 7.991600432433188e-05
+    }
+  ],
+  "expanded": 131,
+  "generated": 134,
+  "elapsed": 0.00014024999109096825,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "path IDs must match every robot exactly",
+      "A: missing or empty path",
+      "B: missing or empty path"
+    ],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

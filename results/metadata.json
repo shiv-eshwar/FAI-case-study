@@ -1,0 +1,40 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "dependencies": {
+      "numpy": "2.5.3",
+      "matplotlib": "3.11.2",
+      "pillow": "12.3.0",
+      "pytest": "9.1.1",
+      "python-docx": "1.2.0",
+      "python-pptx": "1.0.2",
+      "reportlab": "5.0.1"
+    }
+  },
+  "config": {
+    "counts": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "horizons": [
+      40,
+      80
+    ],
+    "limit": 30000,
+    "permutations": 3,
+    "output": "../results"
+  },
+  "timing": "one perf_counter timing per solver per instance, rendering excluded; means across seeds",
+  "sampling": "fixed shelf map, uniform seeded sample of 2N distinct free cells; static connectivity checked; joint feasibility not guaranteed"
+}

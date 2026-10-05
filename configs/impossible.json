@@ -1,0 +1,30 @@
+{
+  "name": "corridor swap no bypass",
+  "width": 3,
+  "height": 1,
+  "obstacles": [],
+  "robots": [
+    {
+      "id": "A",
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": "B",
+      "start": [
+        2,
+        0
+      ],
+      "goal": [
+        0,
+        0
+      ]
+    }
+  ]
+}

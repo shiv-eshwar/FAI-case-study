@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scenario": {
+    "name": "corridor swap no bypass",
+    "width": 3,
+    "height": 1,
+    "obstacles": [],
+    "robots": [
+      {
+        "id": "A",
+        "start": [
+          0,
+          0
+        ],
+        "goal": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "B",
+        "start": [
+          2,
+          0
+        ],
+        "goal": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "paths": {},
+  "status": "bounded_search_exhausted",
+  "algorithm": "fixed",
+  "seed": 42,
+  "config": {
+    "horizons": [
+      40,
+      80
+    ],
+    "expansion_limit": 30000,
+    "permutations": 3
+  },
+  "attempts": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 40,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 1.116600469686091e-05
+    },
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "horizon": 80,
+      "status": "bounded_search_exhausted",
+      "expanded": 5,
+      "generated": 8,
+      "elapsed": 8.37500556372106e-06
+    }
+  ],
+  "expanded": 16,
+  "generated": 22,
+  "elapsed": 2.8750015189871192e-05,
+  "validation": {
+    "valid": false,
+    "errors": [
+      "path IDs must match every robot exactly",
+      "A: missing or empty path",
+      "B: missing or empty path"
+    ],
+    "conflicts": [],
+    "vertex_conflicts": 0,
+    "edge_swap_conflicts": 0
+  }
+}

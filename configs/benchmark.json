@@ -1,0 +1,22 @@
+{
+  "counts": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "horizons": [
+    40,
+    80
+  ],
+  "limit": 30000,
+  "permutations": 3,
+  "output": "../results"
+}
