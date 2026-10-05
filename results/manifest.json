@@ -1,7 +1,7 @@
 {
   ".github/workflows/tests.yml": "f7b667e5d66bfe03c6b58f5d62da7d7d74fa8811cf6aa9430096f7e2b9d1bb18",
   ".gitignore": "bb940576b4179be4ab8de8dde6008306f3c04665327ec7f2771f7a0cc6467ee7",
-  "PROGRESS.md": "9b649207399329e60774bdf88bbf2a15d519702be66a8451fc358f56bc00c0a2",
+  "PROGRESS.md": "ecceb9dfc3aeb11b9b7c475931a3b9078f11aefe68253540cd675abd3e494d30",
   "README.md": "37e123dedf30c0d362aaf4379add79630db3c158ec74c78a02118202113bf2ef",
   "assets/baseline_conflict.png": "4047e2f29d8dbd81c56d2f0b334c593cc963004f1ea62329c28bdf7d0ea7f855",
   "assets/cost.png": "f12f0c6373bdbc4945630deef775678d38836bd96bad32b4705d184fb6f252f3",
@@ -19,7 +19,7 @@
   "configs/impossible.json": "f552e7e39cf85329a395163a6541b3316670b6bd7f127df738c2cef54e6f4b5e",
   "configs/intersection.json": "da152b1d9ea2e01a6b62386d793e618ca15fa02c0c0d5a579126a124b59544cf",
   "configs/order_sensitive.json": "01f728800ad066581c905ddcb644aa77c2a1ed85a517724637e54c47538e35a8",
-  "docs/QA.md": "b36bc8f0554c8f043e71a5796a5ac758d27e677d406044e417f5e319e07d6f2e",
+  "docs/QA.md": "50ff92a62907cb3e79b309c52689420ea2b42dce51adca496cba9a1cc65ff1c5",
   "docs/code_walkthrough.md": "e06d9e78370ed146b7c9fa0931f2ac764e624e3adb81259483e9ce21b1796231",
   "docs/demo_script.md": "67acbc82c63579567ced0300d5832f480dc35bc104ff75c3a957975758eca771",
   "docs/references.md": "490e71174ebc1af7b8708391d65fe25c58224f9a0ecbe6e2697821c9b1ffdba4",

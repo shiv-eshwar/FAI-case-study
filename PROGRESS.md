@@ -96,8 +96,9 @@ user desktop app. No PowerPoint-native inspection claim is made.
 - Institution, faculty and submission date remain placeholders, without guessing.
 - Rebuilt DOCX/PPTX and both PDFs. Canonical document render produced 15 pages;
   all pages reviewed, including the longer cover line and reproduction note.
-- Cover slide reviewed against the original. All other PPTX parts except core
-  metadata are unchanged; report pages 2–14 are pixel-identical to prior QA.
+- Cover slide reviewed against the original. Other slide XML and chart data are
+  unchanged; regenerated embedded workbooks differ only in core metadata.
+  Report pages 2–14 are pixel-identical to prior QA.
 - Verified supplied details in both PDF covers and Office metadata, and checked
   that no student-name or roll-number placeholders remain in either package.
 - Updated clean archive and manifest for the personalized submission.

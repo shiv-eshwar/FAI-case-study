@@ -36,8 +36,9 @@ After the student supplied their details, both covers and Office properties were
 updated to Shiveshwar Kumar Sah, BL.EN.U4CSE23072. Both PDFs were regenerated.
 The report remained 15 pages and every page was reviewed; pages 2–14 were also
 pixel-identical to the earlier canonical render. The updated title slide was
-visually reviewed. PPTX part comparison confirmed only slide 1 and core properties
-changed. No student-name or roll-number placeholders remain in either Office
+visually reviewed. PPTX comparison confirmed only slide 1 changed among the slide
+XML parts. Core properties and embedded-workbook core metadata were regenerated;
+chart data and all other slide contents are unchanged. No student-name or roll-number placeholders remain in either Office
 package or PDF. Institution, faculty and submission date await supplied details.
 
 ## Simulation evidence
